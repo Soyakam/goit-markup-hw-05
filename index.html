@@ -460,17 +460,23 @@
             <input class="subscribe-content" name="user-email" type="email" placeholder="E-mail" />
           </label>
           <button class="button-subscribe" type="submit">Subscribe
-            <svg class="telegram-icon" width="24" height="24" viewbox="0 0 24,24">
+            <svg class="telegram-icon" width="24" height="24" viewbox="0 0 24,24" aria-label="close modal icon">
               <use href="./images/icons.svg#icon-telegram"></use>
             </svg>
           </button>
         </form>
       </div>
     </div>
-
   </footer>
+
   <div class="beckdrop">
-    <div class="modal"></div>
+    <div class="modal">
+      <button class="modal-close-btn">
+        <svg class="modal-closebtn-icon" width="8px" height="8px">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
   </div>
 </body>
 

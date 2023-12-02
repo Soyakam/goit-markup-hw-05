@@ -555,8 +555,11 @@ img {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+  margin-bottom: 16px;
 }
-.Subscribe {
+.subscribe {
+  display: flex;
+  gap: 24px;
 }
 .subscribe-content {
   width: 264px;
@@ -569,18 +572,20 @@ img {
   color: var(--WHITE, #fff);
   line-height: 1.5;
   font-size: 12px;
+  background-color: transparent;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 .button-subscribe {
   color: var(--WHITE, #fff);
   text-align: center;
-
-  /* Button Text */
+  border: none;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
-
+  letter-spacing: 0.04em;
   display: inline-flex;
   padding: 8px 24px;
   justify-content: center;
@@ -589,8 +594,14 @@ img {
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
   margin-left: 24px;
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  font-family: "Roboto", sans-serif;
 }
-
+.telegram-icon {
+  margin-left: 16px;
+}
 /*  ---------------БЕКДРОП---------- */
 
 .beckdrop {

@@ -476,6 +476,44 @@
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
+      <p class="leave-feedback">leave your contacts and we will call you back</p>
+
+      <form class="review-form">
+
+        <div class="review-forms-field-wrapper">
+          <label class="review-form-label" for="user-name">name</label>
+          <input class="review-form-input" id="user-name" name="user-name" type="text" pattern="[a-z A-Zа-яА-ЯіІїЇєЄҐґ]"
+            title="Віктор" required>
+        </div>
+
+        <div class="review-forms-field-wrapper">
+          <label class="review-form-label" for="user-tel">phone</label>
+          <input class="review-form-input" type="email" id="user-tel" name="user-tel" required>
+        </div>
+
+        <div class="review-forms-field-wrapper">
+          <label class="review-form-label" for="user-email">email</label>
+          <input class="review-form-input" type="tel" id="user-email" name="user-email" required
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx">
+
+        </div>
+        <div class="review-forms-field-wrapper">
+          <label class="review-form-label" for="user-coment">coment</label>
+          <textarea class="review-form-coment" id="user-coment" name="user-coment" placeholder="Text input" required>
+            </textarea>
+        </div>
+        <div class="review-form-chekbox-wrapper">
+          <input class="review-form-checkbox" type="checkbox" id="use-privacy-polici" name="use-privacy-polici"
+            value="true" required>
+
+          <label class="review-form-checkbox-label" for="use-privacy-polici">I accept the terms and conditions of the <a
+              href="">Privacy
+              Policy
+            </a>
+          </label>
+        </div>
+        <button class="review-form-sbmit-btn" type="submit">Send</button>
+      </form>
     </div>
   </div>
 </body>

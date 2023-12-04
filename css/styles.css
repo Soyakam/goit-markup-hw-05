@@ -808,3 +808,18 @@ img {
   > .review-form-own-checkbox {
   overflow: 2px solid rgba(0, 0, 255, 0.5);
 }
+.review-form-sbmit-btn {
+  display: inline-flex;
+  margin: center;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

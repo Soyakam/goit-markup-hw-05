@@ -572,11 +572,12 @@ img {
   background: var(--NAVY-BLUE, #2e2f42);
   padding-left: 16px;
   color: var(--WHITE, #fff);
-  line-height: 1.5;
+
   font-size: 12px;
   background-color: transparent;
   letter-spacing: 0.04em;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  line-height: 2;
 }
 .button-subscribe {
   color: var(--WHITE, #fff);

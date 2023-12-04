@@ -780,3 +780,8 @@ img {
   justify-content: center;
   fill: transparent;
 }
+.review-form-checkbox:checked + .review-form-own-checkbox {
+  background-color: #404bbf;
+  border: none;
+  color: #f4f4fd;
+}

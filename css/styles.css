@@ -656,11 +656,29 @@ img {
   top: 24px;
   right: 24px;
   transition: fill 250ms linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-close-btn:focus,
 .modal-close-btn:hover {
-  fill: #404bbf;
+  background-color: #404bbf;
+  border: none;
 }
+.madal-clasebtn-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.madal-clasebtn-icon:hover,
+.madal-clasebtn-icon:focus {
+  fill: #ffffff;
+}
+
 .leave-feedback {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -729,14 +747,16 @@ img {
   outline: 0px solid transparent;
 }
 .review-form-coment ::placeholder {
-  color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+  color: var(--NAVY-BLUE-modal, #2e2f4266);
 }
 .review-form-coment:focus {
   border-color: #4d5ae5;
 }
 .review-form-own-checkbox {
+  display: block;
   width: 16px;
   height: 16px;
-  stroke-width: 1px;
-  stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+  border-radius: 1px;
+  border: 1px solid #2e2f4266;
+  cursor: pointer;
 }

@@ -719,6 +719,9 @@ img {
 .review-form-input:focus {
   border-color: #4d5ae5;
 }
+.review-forms-field-wrapper-person {
+  margin-bottom: 16px;
+}
 .review-forms-field-wrapper {
   margin-bottom: 8px;
 }

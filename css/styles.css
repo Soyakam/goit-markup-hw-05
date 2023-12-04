@@ -671,11 +671,11 @@ img {
   background-color: #404bbf;
   border: none;
 }
-.madal-clasebtn-icon {
+.modal-closebtn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.madal-clasebtn-icon:hover,
-.madal-clasebtn-icon:focus {
+.modal-closebtn-icon:hover,
+.modal-closebtn-icon:focus {
   fill: #ffffff;
 }
 
@@ -699,27 +699,30 @@ img {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.7; /* 116.667% */
   letter-spacing: 0.04em;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
+  line-height: 1.17;
 }
 .review-form-input {
   width: 100%;
   height: 40px;
   border-radius: 4px;
-  border: 1px solid rgba(17, 17, 17, 0.05);
+
   background: #fcfcfc;
   padding-left: 38px;
   flex-shrink: 0;
   transition: border-color 250ms linear;
   outline: 0px solid transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-input:focus {
   border-color: #4d5ae5;
 }
 .review-forms-field-wrapper {
-  margin-bottom: 26px;
+  margin-bottom: 8px;
 }
 .review-form-input-icon {
   position: absolute;

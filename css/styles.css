@@ -670,13 +670,10 @@ img {
 .modal-close-btn:hover {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .modal-closebtn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-closebtn-icon:hover,
-.modal-closebtn-icon:focus {
-  fill: #ffffff;
 }
 
 .leave-feedback {
@@ -716,13 +713,14 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-input:focus {
   border-color: #4d5ae5;
 }
 .review-forms-field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .review-form-input-icon {
   position: absolute;
@@ -748,6 +746,8 @@ img {
   resize: none;
   transition: border-color 250ms linear;
   outline: 0px solid transparent;
+  line-height: 1.17;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review-form-coment ::placeholder {
   color: var(--NAVY-BLUE-modal, #2e2f4266);
@@ -755,11 +755,24 @@ img {
 .review-form-coment:focus {
   border-color: #4d5ae5;
 }
+
+.review-form-chekbox-wrapper {
+  margin-bottom: 24px;
+}
+.review-form-checkbox-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
 .review-form-own-checkbox {
   display: block;
   width: 16px;
   height: 16px;
-  border-radius: 1px;
+  border-radius: 2px;
   border: 1px solid #2e2f4266;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
